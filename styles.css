@@ -124,6 +124,14 @@ body {
   color: var(--gray-900);
 }
 
+.navbar-links .btn-nav {
+  color: var(--white);
+}
+
+.navbar-links .btn-nav:hover {
+  color: var(--white);
+}
+
 .btn-nav {
   font-family: var(--font-body);
   font-size: 14px;
