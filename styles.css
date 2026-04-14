@@ -151,6 +151,24 @@ body {
   background: var(--blue-dark);
 }
 
+.btn-nav-premium {
+  background: var(--white);
+  color: var(--blue-primary);
+  border: 1px solid var(--blue-primary);
+}
+
+.btn-nav-premium:hover {
+  background: var(--blue-light);
+}
+
+.navbar-links .btn-nav-premium {
+  color: var(--blue-primary);
+}
+
+.navbar-links .btn-nav-premium:hover {
+  color: var(--blue-primary);
+}
+
 .hamburger {
   display: none;
   flex-direction: column;
